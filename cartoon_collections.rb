@@ -42,4 +42,3 @@ def find_valid_calls(planeteer_calls)
     valid_calls.include?(planeteer_calls)
   end
 end
-end
