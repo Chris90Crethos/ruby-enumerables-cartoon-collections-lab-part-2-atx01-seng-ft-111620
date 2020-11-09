@@ -23,7 +23,7 @@ end
   # Return the boolean result of this check
 def long_planeteer_calls(planeteer_calls)
   answer = false 
-  long_planeteer_calls.each do |
+  long_planeteer_calls.each do |calls|
 end
 
 
