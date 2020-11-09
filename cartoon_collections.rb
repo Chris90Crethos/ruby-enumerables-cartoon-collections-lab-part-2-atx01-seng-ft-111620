@@ -12,9 +12,8 @@ end
   # Return a new array of the results
 def summon_captain_planet(planeteer_calls)
 planeteer_calls.collect do |calls|
-  calls.capitalize
+  calls.capitalize + "!"
 end
-summon_captain_planet
 end
 
 
