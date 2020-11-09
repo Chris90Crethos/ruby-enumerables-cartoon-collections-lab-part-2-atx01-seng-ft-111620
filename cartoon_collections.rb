@@ -12,7 +12,7 @@ end
   # Return a new array of the results
 def summon_captain_planet(planeteer_calls)
 planeteer_calls.each do |calls|
-  calls.join?
+  calls.join
   calls.capitalize
   calls + ("!")
 end
