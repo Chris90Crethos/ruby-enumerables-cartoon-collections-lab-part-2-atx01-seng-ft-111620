@@ -38,7 +38,7 @@ end
   # Return the first valid call found, or return nil if no valid calls are found
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.each do |cheese|
+  planeteer_calls.find do |calls|
     cheese_types.include?(cheese)
   end
 end
