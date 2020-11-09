@@ -11,7 +11,7 @@ end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 def summon_captain_planet(planeteer_calls)
-planeteer_calls.each do |calls|
+planeteer_calls.collect do |calls|
   calls.join
   calls.capitalize
   calls + ("!")
